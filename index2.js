@@ -33,8 +33,7 @@ function getUsers(){
     let html=""
 
     // fetch("http://localhost:2203/api/hello", {mode: "cors"}) offline
-    // fetch("https://bscs3a-api-crud-crve.onrender.com", {mode: "cors"}) //online
-    fetch("https://bscs3a-crud-api.onrender.com/api/members", {mode: "cors"})
+    fetch("https://bscs3a-api-crud-crve.onrender.com", {mode: "cors"})
     .then((response) =>{
         console.log(response)
         return response.json()
